@@ -4,5 +4,7 @@
         <a href="#/devweb">DevWeb</a>
         <br>
         <a href="#/creadesign">CreaDesign</a>
+        <br>
+        <a href="#/communication">Communication</a>
     </section>
 </template>

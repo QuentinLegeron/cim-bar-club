@@ -2,11 +2,13 @@
 import Index from './components/pages/Index.vue'
 import DevWeb from './components/pages/DevWeb.vue'
 import CreaDesign from './components/pages/CreaDesign.vue'
+import Communication from './components/pages/Communication.vue'
 
 const routes = {
   '/': Index,
   '/devweb': DevWeb,
   '/creadesign': CreaDesign,
+  '/communication': Communication
 }
 
 export default {
@@ -40,3 +42,9 @@ export default {
     <component :is="currentView" />
   </main>
 </template>
+
+<style>
+  * {
+    overflow: hidden;
+  }
+</style>
