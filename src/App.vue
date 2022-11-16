@@ -20,7 +20,14 @@ export default {
       return routes[this.currentPath.slice(1) || '/']
     }
   },
+  methods: {
+    MusiqueInClub() {
+      var audio = new Audio('https://www.youtube.com/watch?v=QH2-TGUlwu4');
+      audio.play();
+    },
+  },
   mounted() {
+    this.MusiqueInClub()
     window.addEventListener('hashchange', () => {
 		  this.currentPath = window.location.hash
 		})

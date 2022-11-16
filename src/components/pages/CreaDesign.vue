@@ -5,35 +5,111 @@
         <h1>Borne d'arcade créa design</h1>
         
         <div class="riddle">
+
+            <!-- Couleurs -->
+
             <div class="riddle-content">
                 <p>1/15</p>
                 <div class="color-contener">
-                    <a @click="WrongColor()"><div class="color red"></div></a>
-                    <a @click="RightColor()"><div class="color red-good"></div></a>
-                    <a @click="WrongColor()"><div class="color red"></div></a>
-                    <a @click="WrongColor()"><div class="color red"></div></a>
+                    <a @click="WrongAnswer()"><div class="color red"></div></a>
+                    <a @click="RightAnswer()"><div class="color red-good"></div></a>
+                    <a @click="WrongAnswer()"><div class="color red"></div></a>
+                    <a @click="WrongAnswer()"><div class="color red"></div></a>
                 </div>
                 <p>Quelle est la bonne couleur ?</p>
             </div>
             <div class="riddle-content">
                 <p>2/15</p>
                 <div class="color-contener">
-                    <a @click="WrongColor()"><div class="color green"></div></a>
-                    <a @click="WrongColor()"><div class="color green"></div></a>
-                    <a @click="WrongColor()"><div class="color green"></div></a>
-                    <a @click="RightColor()"><div class="color green-good"></div></a>
+                    <a @click="WrongAnswer()"><div class="color green"></div></a>
+                    <a @click="WrongAnswer()"><div class="color green"></div></a>
+                    <a @click="WrongAnswer()"><div class="color green"></div></a>
+                    <a @click="RightAnswer()"><div class="color green-good"></div></a>
                 </div>
                 <p>Quelle est la bonne couleur ?</p>
             </div>
             <div class="riddle-content">
                 <p>3/15</p>
                 <div class="color-contener">
-                    <a @click="WrongColor()"><div class="color purple"></div></a>
-                    <a @click="WrongColor()"><div class="color purple"></div></a>
-                    <a @click="RightColor()"><div class="color purple-good"></div></a>
-                    <a @click="WrongColor()"><div class="color purple"></div></a>
+                    <a @click="WrongAnswer()"><div class="color purple"></div></a>
+                    <a @click="WrongAnswer()"><div class="color purple"></div></a>
+                    <a @click="RightAnswer()"><div class="color purple-good"></div></a>
+                    <a @click="WrongAnswer()"><div class="color purple"></div></a>
                 </div>
                 <p>Quelle est la bonne couleur ?</p>
+            </div>
+            <div class="riddle-content">
+                <p>4/15</p>
+                <div class="color-contener">
+                    <a @click="WrongAnswer()"><div class="color yellow"></div></a>
+                    <a @click="WrongAnswer()"><div class="color yellow"></div></a>
+                    <a @click="RightAnswer()"><div class="color yellow-good"></div></a>
+                    <a @click="WrongAnswer()"><div class="color yellow"></div></a>
+                </div>
+                <p>Quelle est la bonne couleur ?</p>
+            </div>
+
+            <!-- Logos -->
+
+            <div class="riddle-content">
+                <p>5/15</p>
+                <div class="color-contener">
+                    <a @click="RightAnswer()"><div class="color blue-good"></div></a>
+                    <a @click="WrongAnswer()"><div class="color blue"></div></a>
+                    <a @click="WrongAnswer()"><div class="color blue"></div></a>
+                    <a @click="WrongAnswer()"><div class="color blue"></div></a>
+                </div>
+                <p>Quelle est la bonne couleur ?</p>
+            </div>
+            <div class="riddle-content">
+                <p>6/15</p>
+                <div class="color-contener">
+                    <a @click="RightAnswer()"><div class="color blue-good"></div></a>
+                    <a @click="WrongAnswer()"><div class="color blue"></div></a>
+                    <a @click="WrongAnswer()"><div class="color blue"></div></a>
+                    <a @click="WrongAnswer()"><div class="color blue"></div></a>
+                </div>
+                <p>Quelle est le bon logo ?</p>
+            </div>
+            <div class="riddle-content">
+                <p>7/15</p>
+                <div class="color-contener">
+                    <a @click="RightAnswer()"><div class="color blue-good"></div></a>
+                    <a @click="WrongAnswer()"><div class="color blue"></div></a>
+                    <a @click="WrongAnswer()"><div class="color blue"></div></a>
+                    <a @click="WrongAnswer()"><div class="color blue"></div></a>
+                </div>
+                <p>Quelle est le bon logo ?</p>
+            </div>
+            <div class="riddle-content">
+                <p>8/15</p>
+                <div class="color-contener">
+                    <a @click="RightAnswer()"><div class="color blue-good"></div></a>
+                    <a @click="WrongAnswer()"><div class="color blue"></div></a>
+                    <a @click="WrongAnswer()"><div class="color blue"></div></a>
+                    <a @click="WrongAnswer()"><div class="color blue"></div></a>
+                </div>
+                <p>Quelle est le bon logo ?</p>
+            </div>
+            <div class="riddle-content">
+                <p>9/15</p>
+                <div class="color-contener">
+                    <a @click="RightAnswer()"><div class="color blue-good"></div></a>
+                    <a @click="WrongAnswer()"><div class="color blue"></div></a>
+                    <a @click="WrongAnswer()"><div class="color blue"></div></a>
+                    <a @click="WrongAnswer()"><div class="color blue"></div></a>
+                </div>
+                <p>Quelle est le bon logo ?</p>
+            </div>
+            <div class="riddle-content">
+                <p>10/15</p>
+                <div class="color-contener">
+                    <a @click="RightAnswer()"><div class="color blue-good"></div></a>
+                    <a @click="WrongAnswer()"><div class="color blue"></div></a>
+                    <a @click="WrongAnswer()"><div class="color blue"></div></a>
+                    <a @click="WrongAnswer()"><div class="color blue"></div></a>
+                </div>
+                <p>Quelle est le bon logo ?</p>
             </div>
         </div>
 
@@ -46,11 +122,11 @@ export default {
 
     
     methods: {
-        RightColor() {
+        RightAnswer() {
             window.scrollBy(0, 600)
         },
 
-        WrongColor() {
+        WrongAnswer() {
             window.scroll(0, 0)
         }
     },
@@ -122,6 +198,22 @@ export default {
 
     .purple {
         background-color: #7B317A;
+    }
+
+    .yellow-good {
+        background-color: #BBB025;
+    }
+
+    .yellow {
+        background-color: #E2D823;
+    }
+
+    .blue-good {
+        background-color: #2D4899;
+    }
+
+    .blue {
+        background-color: #25378C;
     }
 
 </style>
