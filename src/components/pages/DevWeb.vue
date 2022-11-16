@@ -1,7 +1,7 @@
 <template>
     <section>
-        <a href="#/">Index</a>
-        <a href=""></a>
+        <a href="#/"><img src="/src/assets/Logo.png" alt="logo crea" style="width: 100px"></a>
+        <a href="#/creadesign">CreaDesign</a>
         <h1>Window 10</h1>
         <p @click="MyFunction()">enter la réponse</p>
         <p>Post it "F12"</p>

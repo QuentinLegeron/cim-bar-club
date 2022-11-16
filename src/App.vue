@@ -1,10 +1,12 @@
 <script lang="ts">
 import Index from './components/pages/Index.vue'
 import DevWeb from './components/pages/DevWeb.vue'
+import CreaDesign from './components/pages/CreaDesign.vue'
 
 const routes = {
   '/': Index,
-  '/devweb': DevWeb
+  '/devweb': DevWeb,
+  '/creadesign': CreaDesign,
 }
 
 export default {
