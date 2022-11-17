@@ -4,6 +4,7 @@
         <a class="creadesign" href="#/creadesign"></a>
         <a class="ThreeD" href="#/3D"></a>
         <a class="digicode" href="#/digicode"></a>
+        <a class="videogame" href="#/videogame"></a>
         <img id="music" src="/src/assets/orateur_white.png" alt="musique" @click="Onplay()">
         <audio id="audio" src="/src/assets/Rebecсa BAR Soundtrack OST Theme _ Cyberpunk_ Edgerunners.mp3"></audio>
     </section>
@@ -84,6 +85,15 @@ export default {
         width: 40px;
         bottom: 283px;
         left: 288px;
+        z-index: 100;
+    }
+
+    .videogame{
+        position: absolute;
+        height: 63px;
+        width: 77px;
+        bottom: 153px;
+        right: 27px;
         z-index: 100;
     }
 

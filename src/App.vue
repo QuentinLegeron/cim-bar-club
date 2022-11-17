@@ -5,6 +5,7 @@ import CreaDesign from './components/pages/CreaDesign.vue'
 import Communication from './components/pages/Communication.vue'
 import ThreeD from './components/pages/ThreeD.vue'
 import Digicode from './components/pages/Digicode.vue'
+import VideoGame from './components/pages/VideoGame.vue'
 
 const routes = {
   '/': Index,
@@ -13,6 +14,7 @@ const routes = {
   '/communication': Communication,
   '/3D': ThreeD,
   '/digicode': Digicode,
+  '/videogame': VideoGame,
 }
 
 export default {
