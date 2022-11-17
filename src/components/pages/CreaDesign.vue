@@ -1,6 +1,8 @@
 <template>
     <section>
-        <a id="comeback" href="#/"><img src="/src/assets/Logo.png" alt="logo crea" style="width: 100px"></a>
+        <a id="comeback" href="#/"><img src="/src/assets/back-button.png" alt="logo crea" style="width: 50px"></a>
+        <img id="music" src="/src/assets/orateur.png" alt="musique" @click="Onplay()">
+        <audio id="audio" src="/src/assets/Rebecсa BAR Soundtrack OST Theme _ Cyberpunk_ Edgerunners.mp3"></audio>
         
         <div class="riddle">
 
@@ -185,10 +187,7 @@
             <!-- End -->
 
             <div class="color-contener">
-                <img src="/src/assets/interfaces-arcade_Plan_de_travail_1_copie_2.png" alt="background color">
-                <div class="riddle-contener">
-                    <p class="font-purple">2</p>
-                </div>
+                <img src="/src/assets/INTERFACE_FIN_Plan_de_travail_1_copie_3.png" alt="background color">
             </div>
             
         </div>
@@ -208,6 +207,18 @@ export default {
 
         WrongAnswer() {
             window.scroll(0, 0)
+        },
+
+        Onplay() {
+            var audio = document.getElementById("audio")
+            if (audio !== null) {
+                if (audio.paused) {
+                    audio.play()
+                }
+                else {
+                    audio.pause()
+                }
+            }  
         }
     },
 
@@ -222,6 +233,16 @@ export default {
     #comeback {
         position: fixed;
         z-index: 100;
+        top: 20px;
+        left: 20px;
+    }
+
+    #music {
+        position: fixed;
+        z-index: 100;
+        right: 20px;
+        top: 20px;
+        width: 40px;
     }
 
     .riddle {
