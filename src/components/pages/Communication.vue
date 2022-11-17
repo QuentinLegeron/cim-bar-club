@@ -1,6 +1,6 @@
 <template>
     <section id="communication">
-        <a id="comeback" href="#/"><img src="/src/assets/back-button.png" alt="logo crea" style="width: 50px"></a>
+        <a id="comeback" href="#/"><img src="/src/assets/back-button_white.png" alt="logo crea" style="width: 50px"></a>
         <p>8</p>
     </section>
 </template>

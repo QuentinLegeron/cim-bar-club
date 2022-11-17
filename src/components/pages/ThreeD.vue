@@ -1,6 +1,6 @@
 <template>
     <section id="monkey">
-        <a id="comeback" href="#/"><img src="/src/assets/back-button.png" alt="logo crea" style="width: 50px"></a>
+        <a id="comeback" href="#/"><img src="/src/assets/back-button_white.png" alt="logo crea" style="width: 50px"></a>
         <img id="music" src="/src/assets/orateur_white.png" alt="musique" @click="Onplay()">
         <audio id="audio" src="/src/assets/Rebecсa BAR Soundtrack OST Theme _ Cyberpunk_ Edgerunners.mp3"></audio>
     </section>
