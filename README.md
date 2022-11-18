@@ -38,3 +38,15 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+### For information
+
+This site web is in progress.
+It is not finished yet
+
+TODO :
+ - responsive
+ - animations
+ - bug with the alert in the riddle of DevWeb
+ - make img draggable in the riddle of JV
