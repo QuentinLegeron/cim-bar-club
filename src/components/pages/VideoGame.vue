@@ -24,9 +24,9 @@
                 <img src="/src/assets/perso_1.png" alt="personnage 1">
                 <p>2. Chevalier</p>
             </div>
-            <div class="game-content">
+            <div class="game-content green">
                 <img src="/src/assets/perso_4.png" alt="personnage 4">
-                <p>3. buche</p>
+                <p>3. buche ✔️</p>
             </div>
             <div class="game-content">
                 <img src="/src/assets/perso_6.png" alt="personnage 6">
@@ -36,9 +36,9 @@
                 <img src="/src/assets/perso_8.png" alt="personnage 8">
                 <p>5. sauver</p>
             </div>
-            <div class="game-content">
+            <div class="game-content green">
                 <img src="/src/assets/perso_5.png" alt="personnage 5">
-                <p>6. gobelin</p>
+                <p>6. gobelin ✔️</p>
             </div>
             <div class="game-content">
                 <img src="/src/assets/perso_2.png" alt="personnage 2">
@@ -48,9 +48,9 @@
                 <img src="/src/assets/perso_7.png" alt="personnage 7">
                 <p>8. récupérer clé</p>
             </div>
-            <div class="game-content">
+            <div class="game-content green">
                 <img src="/src/assets/perso_9.png" alt="personnage 9">
-                <p>9. princesse</p>
+                <p>9. princesse ✔️</p>
             </div>
         </div>
         
@@ -94,7 +94,9 @@ export default {
                 button.style.display = "none";
                 var input = document.querySelector('input') as HTMLInputElement;
                 input.style.display = "none";
-            } else {
+            }
+            else {
+                input.value = ""
                 var message = document.querySelector('.message-red') as HTMLParagraphElement;
                 message.style.display = "block";
                 var message = document.querySelector('.start1') as HTMLParagraphElement;
@@ -179,5 +181,9 @@ export default {
         width: 100%;
         height: 100%;
         object-fit: contain;
+    }
+
+    .green{
+        color: #00FF00;
     }
 </style>
