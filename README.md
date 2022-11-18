@@ -2,6 +2,17 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
+## For information
+
+This site web is in progress.
+It is not finished yet
+
+TODO :
+ - responsive
+ - animations
+ - bug with the alert in the riddle of DevWeb
+ - make img draggable in the riddle of JV
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
@@ -38,15 +49,3 @@ npm run dev
 ```sh
 npm run build
 ```
-
-
-### For information
-
-This site web is in progress.
-It is not finished yet
-
-TODO :
- - responsive
- - animations
- - bug with the alert in the riddle of DevWeb
- - make img draggable in the riddle of JV
